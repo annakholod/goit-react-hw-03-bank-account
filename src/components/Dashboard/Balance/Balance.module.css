@@ -1,0 +1,25 @@
+.balance {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 32px 0;
+  width: 400px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #5c6975;
+  text-align: center;
+}
+
+.deposit,
+.withdraw {
+  margin: 0;
+  padding: 0;
+}
+
+.deposit span {
+  color: green;
+}
+
+.withdraw span {
+  color: red;
+}

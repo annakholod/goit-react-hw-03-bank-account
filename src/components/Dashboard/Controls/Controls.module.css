@@ -1,0 +1,32 @@
+.controls {
+  padding: 54px 0;
+  background-color: #062c56;
+}
+
+.controlsOverlay {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 678px;
+}
+
+.controlsInput {
+  width: 260px;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  outline: none;
+}
+
+.controlsBtn {
+  width: 186px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3884ff;
+  color: #fff;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+}
