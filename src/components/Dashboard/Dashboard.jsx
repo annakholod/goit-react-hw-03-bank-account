@@ -20,9 +20,12 @@ class Dashboard extends Component {
   componentDidMount() {
     try {
       const transactionsFromLocal = localStorage.getItem('transactions');
-      return transactionsFromLocal === null
-        ? []
-        : this.setState({ transactions: JSON.parse(transactionsFromLocal) });
+      this.setState({
+        transactions:
+          transactionsFromLocal === null
+            ? []
+            : JSON.parse(transactionsFromLocal),
+      });
     } catch (err) {
       console.log(err);
     }
