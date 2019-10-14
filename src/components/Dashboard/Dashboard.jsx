@@ -21,7 +21,7 @@ class Dashboard extends Component {
     try {
       const transactionsFromLocal = localStorage.getItem('transactions');
       return transactionsFromLocal === null
-        ? undefined
+        ? []
         : this.setState({ transactions: JSON.parse(transactionsFromLocal) });
     } catch (err) {
       console.log(err);

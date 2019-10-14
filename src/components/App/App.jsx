@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import Dashboard from '../Dashboard/Dashboard.jsx';
+import Dashboard from '../Dashboard/Dashboard';
 
-const App = () => {
-  return <Dashboard />;
-};
+const App = () => <Dashboard />;
 
 export default App;
